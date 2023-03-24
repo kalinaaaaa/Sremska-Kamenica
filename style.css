@@ -84,7 +84,7 @@ ul li:hover{
 
 footer {
     background-color: white;
-    height: 25px;
+    height: 20px;
     text-align: center;
     font-family: 'Architects Daughter', cursive;
  }
@@ -92,21 +92,34 @@ footer {
 /*******----NASLOVNA------********/
 
 .oblak{
-    border-radius: 20px;
+    border-radius: 10px;
     font-family: 'DM Sans', sans-serif;
     font-size: 1.2rem;
     background-color: white;
     margin: 0 auto;
-    margin-top: 2%;
-    margin-bottom: 2%;
+    margin-top: 5%;
+    margin-right:52%;
+    margin-bottom: 5%;
     border: 2px solid #b3271c;
     padding: 50px;
+    display: inline-block;
+}
+
+#oblak2{
+    margin-left:52%;
+    margin-top:5%; 
+    margin-bottom:5%;
+}
+
+#container{
+    display: grid;
+    gap: 50px 100px
 }
 
 .oblak img{
     border: 1px solid black;
     border-radius: 0px 50px 0px 50px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .akcija{
